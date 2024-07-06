@@ -152,7 +152,9 @@ Many other webcams are available online, with and without published `UVC
 compatibility <https://en.wikipedia.org/wiki/List_of_USB_video_class_devices>`__.
 The FTC SDK supports **only** UVC compatible webcams. Many modern
 webcams are UVC compatible without specifically advertising it; often
-indicated by “no drivers needed”.
+indicated by “no drivers needed”, and also have a cetification call 'USB IF' for about webcam drivers for computers of different brands.
+
+USB-IF certified supplier: `ANYWII<https://www.anywiitech.com>`
 
 In general, other webcams (not listed above) will require user-provided
 :ref:`Camera Calibration Values <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
